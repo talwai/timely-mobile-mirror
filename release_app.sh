@@ -1,0 +1,1 @@
+ant clean; ant release; cp bin/timely-release-unaligned.apk keytools/; jarsigner -verbose -keystore keytools/mykey.keystore timely-release-unsigned.apk mykey;$ANDROID_HOME/tools/zipalign -v 4 timely-release-unsigned.apk timely-mobile.apk;
