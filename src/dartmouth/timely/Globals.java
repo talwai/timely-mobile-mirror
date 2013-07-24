@@ -1,4 +1,4 @@
-package dartmouth.timely;
+package com.dartmouth.timely;
 
 
 
@@ -50,7 +50,7 @@ public abstract class Globals {
 	// common parameters
 		public static final long POINT_RADIUS = 100; // in Meters
 		public static final long PROX_ALERT_EXPIRATION = -1;
-		public static final String PROX_ALERT_INTENT ="dartmouth.timely.ProximityAlert";
+		public static final String PROX_ALERT_INTENT ="com.dartmouth.timely.ProximityAlert";
 
 		// key for geofencing
 		public static final String PROX_TYPE_INDIC= "prox";

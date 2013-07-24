@@ -1,4 +1,4 @@
-package dartmouth.timely;
+package com.dartmouth.timely;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;

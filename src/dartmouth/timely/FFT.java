@@ -20,7 +20,7 @@
  *  See the file "COPYING" for the text of the license.
  */
 
-package dartmouth.timely;
+package com.dartmouth.timely;
 
 /**
  * Utility class to perform a fast fourier transform without allocating any

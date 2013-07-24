@@ -1,4 +1,4 @@
-package dartmouth.timely;
+package com.dartmouth.timely;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -288,21 +288,6 @@ OnMapClickListener, OnMarkerClickListener {
 		card_obj.setTypeface(tf);
 
 		//findViewById(R.id.noChartText).setVisibility(View.GONE);
-
-		//final PieChart piechart = new PieChart(this,imgView,data_values,color_values, labels);
-		View.OnClickListener timeChartListener = new View.OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				//v.setVisibility(View.GONE);
-					Intent localIntent = new Intent ( getApplicationContext(), PieChartActivity.class );
-					startActivity(localIntent);
-				
-			
-			}
-		};
-
-		card_obj.setOnClickListener(timeChartListener);
-
 
 
 		// end

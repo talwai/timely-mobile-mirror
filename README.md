@@ -16,7 +16,7 @@ ant clean; ant debug; ./install_app.sh
 once your Android phone is connected over USB. 
 
 App name: Timely
-Package name: dartmouth.timely
+Package name: com.dartmouth.timely
 
 Google Maps API 
 - 

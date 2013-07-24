@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<dartmouth.timely.VerticalScrollview xmlns:android="http://schemas.android.com/apk/res/android"
+<com.dartmouth.timely.VerticalScrollview xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:layout_gravity="center_horizontal"
@@ -81,7 +81,7 @@
 
         <!-- Update Bar -->
     
-        <dartmouth.timely.NowLayout
+        <com.dartmouth.timely.NowLayout
             android:id="@+id/nowlayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -103,7 +103,7 @@
                 android:gravity="center"
                 android:minHeight="200dp"
                 android:minWidth="200dp"
-                android:text="Lunch Card"
+                android:text="Waiting For Menus"
                 android:textColor="#454545"
                 android:textSize="18sp" />
 
@@ -252,7 +252,7 @@
                     android:textSize="15sp"
                     android:textColor="#454545" />
                 
-            </dartmouth.timely.NowLayout>
+            </com.dartmouth.timely.NowLayout>
                 
         <TextView
             android:id="@+id/timeUsageCard"
@@ -271,4 +271,4 @@
 
     </LinearLayout>
 
-</dartmouth.timely.VerticalScrollview>
+</com.dartmouth.timely.VerticalScrollview>

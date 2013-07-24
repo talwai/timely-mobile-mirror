@@ -1,4 +1,4 @@
-package dartmouth.timely;
+package com.dartmouth.timely;
 
 import android.view.View;
 import android.view.View.OnClickListener;
